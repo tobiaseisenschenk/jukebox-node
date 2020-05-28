@@ -16,5 +16,5 @@ app.get('/', function(req, res) {
     res.render('index');
 });
  
-app.listen(3023);
-console.info('listening on port 3023');
+app.listen(80);
+console.info('listening on port 80');

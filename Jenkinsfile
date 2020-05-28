@@ -13,7 +13,7 @@ pipeline {
 		}
 		stage('Deploy with Cloudformation') {
 			steps {
-				sh 'echo "ongoing..."'
+				sh 'docker build --tag=tje512/jukebox-mini .'
 			}
 		}
 	}
