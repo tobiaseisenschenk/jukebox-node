@@ -1,0 +1,21 @@
+# Global
+.DS_Store
+.idea
+
+# Editor
+.vscode
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Libs
+node_modules
