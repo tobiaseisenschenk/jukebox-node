@@ -7,7 +7,7 @@ test:
 	# Additional, optional, tests could go here
 
 lint:
-	hadolint Dockerfile
+	npx dockerlint Dockerfile
 	npm run lint
 
 all: install lint test
