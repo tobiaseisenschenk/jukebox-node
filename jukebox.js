@@ -15,6 +15,6 @@ app.use(express.static(path.join(__dirname,'public')));
 app.get('/', function(req, res) {
     res.render('index');
 });
- 
+some-invalid
 app.listen(80);
 console.info('listening on port 80');
