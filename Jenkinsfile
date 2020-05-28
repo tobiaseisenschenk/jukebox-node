@@ -3,6 +3,7 @@ pipeline {
 	stages {
 		stage('Lint JS & Dockerfile') {
 			steps {
+				sh 'sudo apt-get install build-essential'
 				sh 'make install && make lint'
 			}
 		}
