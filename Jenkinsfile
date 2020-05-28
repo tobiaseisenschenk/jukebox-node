@@ -2,6 +2,9 @@ pipeline {
 	agent {
         docker { image 'node:10.20.1-jessie' }
     }
+	environment {
+        HOME = '.'
+    }
 	stages {
 		stage('Lint JS & Dockerfile') {
 			steps {
