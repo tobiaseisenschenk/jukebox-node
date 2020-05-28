@@ -1,0 +1,6 @@
+[
+  {
+    "ParameterKey": "EC2InstanceType",
+    "ParameterValue": "t2.medium"
+  }
+]
