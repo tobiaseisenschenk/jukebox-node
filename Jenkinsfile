@@ -1,9 +1,10 @@
 pipeline {
-	agent any
+	agent {
+        docker { image 'node:10.20.1-jessie' }
+    }
 	stages {
 		stage('Lint JS & Dockerfile') {
 			steps {
-				sh 'sudo apt-get install build-essential'
 				sh 'make install && make lint'
 			}
 		}
